@@ -1,0 +1,90 @@
+.tintami{
+  background-color: rgb(0, 0, 0);
+  background-image: url(https://github.com/jperezle/page/blob/main/img/sevillalogoblanco.png?raw=true);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 150px 50px;
+  background-repeat: repeat-x;
+  background-position-y: 40px;
+}
+
+body {
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    color: #ffffff;
+    
+}
+
+
+.bio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .bio-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 0%;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+  
+  .bio-text {
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 600px;
+  }
+  
+
+h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.linea_del_tiempo{
+    border-collapse: collapse;
+    border: 1px solid #ffffff;
+    align-content: center;
+    margin: 0 auto;
+    text-align: left;
+  }
+
+  .separador{
+    border-bottom: 1px solid rgb(255, 255, 255);
+  }
+  
+  td {
+    padding: 10px;
+  }
+  
+  .fecha {
+    font-family: 'Fira Code', monospace;
+    background-color: #000000;
+  }
+
+  .descripcion{
+    text-align: right;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .bio-container {
+      padding: 10px;
+    }
+    
+    .bio-text {
+      font-size: 16px;
+    }
+  }

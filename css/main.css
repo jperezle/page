@@ -1,0 +1,221 @@
+.documento_completo{
+    background-color: black;
+    font-family: 'Fira Code', monospace;
+}
+.banner {
+    position: relative;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner__imagen {
+    background-image: url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8ZGV2ZWxvcGVyfGVufDB8fDB8fA%3D%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: calc(50vh - 100px);
+    
+}
+
+.banner__titulo {
+    position: absolute;
+    font-family: 'Fira Code', monospace;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.75);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, -80%);
+    font-size: 81px;
+}
+
+.cuadro_color {
+    background-color: #000000;
+    padding: 1px; /* Añade un poco de espacio alrededor del texto */
+    display: inline-block; /* Para que el cuadro tenga el ancho del texto */   
+  }
+
+.cuadro_blanco {
+    background-color: #ffffff;
+    padding: 1px; /* Añade un poco de espacio alrededor del texto */
+    display: inline-block; /* Para que el cuadro tenga el ancho del texto */   
+  }
+
+
+.banner__informa{
+    position: absolute;
+    font-family: 'Fira Code', monospace;
+    font-weight: 500;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.75);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%, 90px);
+    font-size: 42px;
+    
+}
+
+
+.banner__parrafo {
+    position: absolute;
+    font-family: 'Fira Code', monospace;
+    font-style: normal;
+    font-size: 28px;
+    font-weight: 400;
+    color: black;
+    text-shadow: 0px 4px 4px rgba(255, 255, 255, 0.75);
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 110px);
+    width: 100%;
+}
+
+.quienes {
+    background-color: white;
+    padding: 2rem 0.5rem 2rem 0.5rem;
+    text-align: center;
+}
+
+.quienes__titulo {
+    font-family: var(--pacifico);
+    font-size: 51px;
+    font-weight: 400;
+    color: var(--texto-color-rojo-medio);
+}
+
+.quienes__descripcion {
+    font-family: var(--roboto);
+    font-size: 25px;
+    font-weight: 100;
+    color: var(--texto-color-gris-medio);
+}
+
+.personas {
+    display: flex;
+    justify-content: space-around;
+    padding: 0.8rem;
+    background-color: rgba(0, 0, 0, 0.366);
+    margin-top: 50px;
+}
+
+.persona {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+
+.bajartexto{
+    float: top;
+    margin-top: 7%;
+}
+
+.bajardescripcion{
+    float: top right;
+    margin-top: 16%;
+}
+
+.persona__imagen {
+    display: flex;
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+.acercarlaimagen{
+    transition: transform 0.3s ease-out; /* Ajusta la duración de la transición a 1 segundo */
+}
+
+.acercarlaimagen:hover{
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% */
+}
+
+.sobre_mi {
+    background-image: url(https://github.com/jperezle/page/blob/main/img/sobremi.png?raw=true);
+}
+
+.software {
+    background-image: url(https://github.com/jperezle/page/blob/main/img/software.png?raw=true);
+}
+
+.hardware {
+    background-image: url(https://github.com/jperezle/page/blob/main/img/hardwaree.png?raw=true);
+}
+
+.persona__nombre {
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    padding: 1rem 0rem 1rem 0rem;
+}
+
+.persona__funcion {
+    font-family: 'Fira Code' bold;
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(187, 183, 183);
+}
+.redes_sociales{
+    width: 28px;
+    height: 28px;
+}
+
+
+
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .banner__imagen {
+        height: calc(100vh - 126px);
+    }
+    
+    .banner__titulo, .banner__informa {
+        font-size: 31px;
+    }
+
+    .sobreNosotros {
+        padding: 2.5rem 1rem;
+    }
+
+    .sobreNosotros__titulo {
+        font-size: 21px;
+    }
+
+    .sobreNosotros__parrafo {
+        font-size: 15px;
+    }
+
+    .receta {
+        width: 100%;
+        margin: 2rem;
+    }
+
+    .recetas {
+        padding: 2rem;
+    }
+
+    .personas {
+        flex-direction: column;
+    }
+
+
+    
+    .persona__funcion {
+        padding-bottom: 3rem;
+    }
+
+}
+
+

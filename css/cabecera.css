@@ -1,0 +1,45 @@
+.cabecera {
+    background-color: (0, 0, 0rgb);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 0px;
+}
+
+.menu__lista {
+    display: flex;
+}
+
+.menu__link {
+    color: whitesmoke;
+    margin-right: 1.25rem;
+}
+
+.menu__item:hover {
+    font-weight: bold;
+}
+
+.resaltado {
+    color: whitesmoke;
+}
+
+.logo{
+    height: 20px;
+    width: 80px;
+    margin-left: 20px;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .cabecera {
+        padding: 0rem 1rem;
+        justify-content: center;
+    }
+
+    .menu__item {
+        font-size: 15px;
+    }
+
+    .logo {
+        display: none;
+    }
+}

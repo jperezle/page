@@ -1,0 +1,56 @@
+.tintahard{
+    background-color: rgb(0, 0, 0);
+  background-image: url(https://github.com/jperezle/page/blob/main/img/sevillalogoblanco.png?raw=true);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 150px 50px;
+  background-repeat: repeat-x;
+  background-position-y: 40px;
+}
+
+.bloghardware{
+    width: 900px;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+}
+
+.pag_hardware{
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.paracentrar{
+   text-align: center;
+   margin-top: 50px;
+}
+
+.post_margin{
+    margin-top: 40px;
+}
+
+.post {
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ffffff;
+    transition: all 0.3s ease;
+  }
+  
+  .post:hover {
+    background-color: #ffffff;
+    color: #005823;
+    border: 1px solid #ffffff;
+  }
+  
+  .post h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .post p {
+    font-size: 16px;
+    line-height: 1.5;
+  }

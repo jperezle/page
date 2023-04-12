@@ -1,0 +1,35 @@
+.footer {
+    background-color:#f6ff00;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 24px;
+    margin-top: 80px;
+}
+
+
+
+.footer__titulo {
+    font-family: var(--roboto);
+    font-size: 12px;
+    font-weight: 100;
+    color: black;
+}
+
+
+.footer__lista {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.footer__icon {
+    padding: 0rem 0.8rem 0rem 0.5rem;
+}
+
+@media screen and (min-width: 0px) and (max-width: 767px) {
+    .footer {
+        flex-direction: column;
+    }
+}

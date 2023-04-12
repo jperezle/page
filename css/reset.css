@@ -1,0 +1,31 @@
+:root {
+    --pacifico: 'Pacifico', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+
+    --background-color-gris-claro: #f9f9f9;
+    --background-color-anaranjado: #dab997;
+    --background-color-rojo: #DA2B1F;
+    ----background-color-rojo-activo: #9f1010;
+
+    --texto-color-gris-medio: #808080;
+    --texto-color-activo: #333;
+    --texto-color-blanco: #fff;
+    --texto-color-rojo-medio: #DA2B1F;
+
+}
+
+
+body {
+    font-family: Roboto, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+a, ul, li {
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
