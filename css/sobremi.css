@@ -53,6 +53,10 @@ p {
     margin: 0;
 }
 
+.texto_descrip{
+ text-align: justify; 
+}
+
 .linea_del_tiempo{
     border-collapse: collapse;
     border: 1px solid #ffffff;
